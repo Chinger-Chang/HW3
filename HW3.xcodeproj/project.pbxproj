@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0BF3B1247C122C00CA8D4A /* HarrysWorld.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BF3B0247C122C00CA8D4A /* HarrysWorld.mp3 */; };
+		4B0BF3B3247C124E00CA8D4A /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BF3B2247C124E00CA8D4A /* MusicView.swift */; };
 		4B95C29624741A070014DDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95C29524741A070014DDE5 /* AppDelegate.swift */; };
 		4B95C29824741A070014DDE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95C29724741A070014DDE5 /* SceneDelegate.swift */; };
 		4B95C29A24741A070014DDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95C29924741A070014DDE5 /* ContentView.swift */; };
 		4B95C29C24741A080014DDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B95C29B24741A080014DDE5 /* Assets.xcassets */; };
 		4B95C29F24741A080014DDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B95C29E24741A080014DDE5 /* Preview Assets.xcassets */; };
 		4B95C2A224741A080014DDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B95C2A024741A080014DDE5 /* LaunchScreen.storyboard */; };
+		4B95C2AA24741E060014DDE5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95C2A924741E060014DDE5 /* Data.swift */; };
+		4BBC7AFD2477B53C006BF777 /* SpellDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7AFC2477B53C006BF777 /* SpellDetailView.swift */; };
+		4BF145D4247568F7008DB69D /* SpellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF145D3247568F7008DB69D /* SpellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0BF3B0247C122C00CA8D4A /* HarrysWorld.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HarrysWorld.mp3; sourceTree = SOURCE_ROOT; };
+		4B0BF3B2247C124E00CA8D4A /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
 		4B95C29224741A070014DDE5 /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B95C29524741A070014DDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B95C29724741A070014DDE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		4B95C29E24741A080014DDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B95C2A124741A080014DDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B95C2A324741A080014DDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B95C2A924741E060014DDE5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4BBC7AFC2477B53C006BF777 /* SpellDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDetailView.swift; sourceTree = "<group>"; };
+		4BF145D3247568F7008DB69D /* SpellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		4B95C29424741A070014DDE5 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				4B0BF3B0247C122C00CA8D4A /* HarrysWorld.mp3 */,
 				4B95C29524741A070014DDE5 /* AppDelegate.swift */,
 				4B95C29724741A070014DDE5 /* SceneDelegate.swift */,
 				4B95C29924741A070014DDE5 /* ContentView.swift */,
+				4BF145D3247568F7008DB69D /* SpellView.swift */,
+				4BBC7AFC2477B53C006BF777 /* SpellDetailView.swift */,
+				4B0BF3B2247C124E00CA8D4A /* MusicView.swift */,
+				4B95C2A924741E060014DDE5 /* Data.swift */,
 				4B95C29B24741A080014DDE5 /* Assets.xcassets */,
 				4B95C2A024741A080014DDE5 /* LaunchScreen.storyboard */,
 				4B95C2A324741A080014DDE5 /* Info.plist */,
@@ -136,6 +151,7 @@
 				4B95C2A224741A080014DDE5 /* LaunchScreen.storyboard in Resources */,
 				4B95C29F24741A080014DDE5 /* Preview Assets.xcassets in Resources */,
 				4B95C29C24741A080014DDE5 /* Assets.xcassets in Resources */,
+				4B0BF3B1247C122C00CA8D4A /* HarrysWorld.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBC7AFD2477B53C006BF777 /* SpellDetailView.swift in Sources */,
+				4BF145D4247568F7008DB69D /* SpellView.swift in Sources */,
 				4B95C29624741A070014DDE5 /* AppDelegate.swift in Sources */,
 				4B95C29824741A070014DDE5 /* SceneDelegate.swift in Sources */,
+				4B0BF3B3247C124E00CA8D4A /* MusicView.swift in Sources */,
 				4B95C29A24741A070014DDE5 /* ContentView.swift in Sources */,
+				4B95C2AA24741E060014DDE5 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
